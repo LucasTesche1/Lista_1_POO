@@ -1,0 +1,102 @@
+//terceira atividade 
+
+
+package monke; 
+
+import java.util.Scanner;  
+
+public class Main { 
+
+public static void main(String[] args) {  
+
+String refeição; 
+
+String refeição2; 
+
+String refeição3; 
+
+Scanner sc = new Scanner(System.in);  
+
+System.out.printf("Qual o número da mesa? "); 
+
+int Mesa = sc.nextInt(); 
+
+System.out.printf("Qual a refeição?"); 
+
+refeição = sc.nextLine(); 
+
+sc.nextLine(); 
+
+System.out.printf("Qual o valor?"); 
+
+float valor = sc.nextFloat(); 
+
+System.out.printf("Qual a quantidade?"); 
+
+int quantidade = sc.nextInt(); 
+
+System.out.println("-----------------------------------"); 
+
+System.out.println("Proximo pedido"); 
+
+System.out.println("-----------------------------------"); 
+
+System.out.printf("Qual o número da mesa? "); 
+
+int Mesa2 = sc.nextInt(); 
+
+System.out.printf("Qual a refeição?"); 
+
+refeição2 = sc.next(); 
+
+sc.nextLine(); 
+
+System.out.printf("Qual o valor?"); 
+
+float valor2 = sc.nextFloat(); 
+
+System.out.printf("Qual a quantidade?"); 
+
+int quantidade2 = sc.nextInt(); 
+
+System.out.println("-----------------------------------"); 
+
+System.out.println("Proximo pedido"); 
+
+System.out.println("-----------------------------------"); 
+
+System.out.printf("Qual o número da mesa? "); 
+
+int Mesa3 = sc.nextInt(); 
+
+System.out.printf("Qual a refeição?"); 
+
+refeição3 = sc.next(); 
+
+sc.nextLine(); 
+
+System.out.printf("Qual o valor?"); 
+
+float valor3 = sc.nextFloat(); 
+
+System.out.printf("Qual a quantidade?"); 
+
+int quantidade3 = sc.nextInt(); 
+
+System.out.println("-----------------------------------"); 
+
+System.out.println("Resultado"); 
+
+System.out.println("-----------------------------------"); 
+
+double soma = valor + valor2 + valor3; 
+
+System.out.println("Pratos totais:" + refeição + "," + refeição2 + "," + refeição3); 
+
+System.out.printf("Preço total: %.2f%n " , soma); 
+
+sc.close();  
+
+} 
+
+} 
