@@ -1,0 +1,54 @@
+//primeira atividade 
+
+ 
+
+package aliceeeeeeeeee;  
+
+import java.util.Scanner; 
+
+public class Main {  
+
+public static void main(String[] args) {  
+
+Scanner sc = new Scanner(System.in);  
+
+String Professor; 
+
+String Estudante; 
+
+int Nota1; 
+
+int Nota2; 
+
+System.out.printf("Digite o nome do Professor(a): "); 
+
+Professor = sc.nextLine(); 
+
+System.out.printf("Digite o nome do Estudante: "); 
+
+Estudante = sc.nextLine(); 
+
+System.out.printf("Digite a primeira nota do semestre: "); 
+
+Nota1 = sc.nextInt(); 
+
+System.out.printf("Digite a segunda nota do semestre: "); 
+
+Nota2 = sc.nextInt(); 
+
+int Media = (Nota1 + Nota2)/2; 
+
+System.out.println(Estudante); 
+
+System.out.println(Nota1); 
+
+System.out.println(Nota2); 
+
+System.out.println(Media); 
+
+sc.close(); 
+
+} 
+
+} 
+
