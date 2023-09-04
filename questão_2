@@ -1,0 +1,52 @@
+//segunda atividade 
+
+
+package monke; 
+
+import java.util.Scanner;  
+
+public class Main { 
+
+public static void main(String[] args) {  
+
+Scanner sc = new Scanner(System.in);  
+
+String Nome; 
+
+String Sobrenome; 
+
+int valor1, valor2; 
+
+double resultado; 
+
+System.out.printf("Digite o nome do cliente: "); 
+
+Nome = sc.next(); 
+
+System.out.printf("Digite o sobrenome do cliente: "); 
+
+Sobrenome = sc.next(); 
+
+System.out.printf("Digite um valor inteiro: "); 
+
+valor1 = sc.nextInt(); 
+
+System.out.printf("Digite outro valor inteiro: "); 
+
+valor2 = sc.nextInt();  
+
+System.out.println("valor 1: " + valor1); 
+
+System.out.println("valor 2: " + valor2); 
+
+resultado = (double) valor1 / valor2; 
+
+System.out.println("resultado: " + resultado); 
+
+System.out.println("Nome completo: " + Nome + " " + Sobrenome); 
+
+sc.close();  
+
+} 
+
+} 
